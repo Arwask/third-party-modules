@@ -1,6 +1,8 @@
 'use strict';
 
-const { bgBlue, bgRed, bgWhite } = require('chalk');
+// console.log('It is \u001b[31mnot\u001b[39m easy to use \u001b[32mhardcoded \u001b[1mANSI\u001b[39m\u001b[22m codes!');
+
+const { bgBlue, bgRed, bgWhite, bgBlack, blue } = require('chalk');
 const STAR = 	"\u2605";
 const STAR_MARGIN = " "
 const STAR_PADDING = " ";
